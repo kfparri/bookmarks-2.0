@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to the bookmarks-2.0 Homepage!
 
 You can use the [editor on GitHub](https://github.com/kfparri/bookmarks-2.0/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
