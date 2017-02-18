@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bookmarks 2.0",
+  "description": "A new way to use bookmarks, because some people don't just use one tab!",
+  "version": "0.1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Bookmarks 2.0"
+  },
+
+  "permissions":[
+    "activeTab",
+    "tabs",
+    "bookmarks",
+    "storage"
+  ]
+}
