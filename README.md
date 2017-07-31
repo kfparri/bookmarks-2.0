@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Bookmarks 2.0
 
-You can use the [editor on GitHub](https://github.com/kfparri/bookmarks-2.0/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Bookmarks 2.0 is a new way of creating bookmarks.  If you are one of those people who have large number of tabs open all the time and need a way to quickly organize them, then this is your extension.  This extension allows you to bulk create bookmarks and orginize them into a folder.  This is particularly usefull if you open a new tab for almost every link you click and you end up researching many different things over the course of the day and have lots of "groups" of tabs open all the time.  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kfparri/bookmarks-2.0/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The extension allows you to select which tabs to bookmark and the custom folder name for the bookmarks.  Once the pages have been bookmarked, those tabs will be closed and viola!  A clean Chrome window!
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Submit a Github issue.

@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     for(var i = 0; i < tabs.length; i++) {
       var url = tabs[i].url;
       console.log(url);
-      text = text + "<br /><input type='checkbox' name='chk' value='" + url + "'>" + url;
+      text = text + "<br /><input type='checkbox' id='chk" + i + "' name='chk' value='" + url + "'><label for='chk" + i + "'>" + url + "</label>";
     }
 
     renderStatus(text);
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var btn = document.getElementById('btn');
 
   btn.addEventListener('click', function() {
-    var checkboxes = document.getElementByName("chk");
+    var checkboxes = document.getElementsByName("chk");
     var checkboxes_checked = [];
 
     for ( var i = 0; i < checkboxes.length; i++ ) {
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     var bookmarkParam = {
-      "title": document.getElementByID("txtGrouping").value
+      "title": document.getElementById("txtGrouping").value
     }
 
     // Create a new folder using the chrome api
@@ -80,5 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
         chrome.tabs.remove(tabs[i].id);
       }
     });
+
+    self.close();
   });
 });

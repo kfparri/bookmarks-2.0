@@ -3,7 +3,7 @@
 
   "name": "Bookmarks 2.0",
   "description": "A new way to use bookmarks, because some people don't just use one tab!",
-  "version": "0.1.0",
+  "version": "0.0.1",
 
   "browser_action": {
     "default_icon": "icon.png",

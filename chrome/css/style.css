@@ -1,0 +1,36 @@
+body {
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+}
+
+h1 {
+    /*background-color: #1D5478; */
+    border-radius: 15px;
+    text-align: center;
+    color: #1D5478;
+}
+
+#status {
+    /* avoid an excessively wide status text */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+input[type=checkbox]:checked + label {
+    background-color: #FF9704;
+    /*color: white;*/
+}
+
+hr {
+    background-color: #1C82C4;
+    height: 3px;
+} 
+
+label {
+    font-weight: normal !important;
+}
+
+.scrollable {
+    height: 300px; /* or any value */
+    overflow-y: auto;
+}
